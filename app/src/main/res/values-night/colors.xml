@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorAccent">#32c5fa</color>
+    <color name="text_default">#eee</color>
+    <color name="bg_default">#37474f</color>
+    <color name="btn_bg">#37474f</color>
+
+</resources>

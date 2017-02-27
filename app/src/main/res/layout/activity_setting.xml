@@ -1,0 +1,81 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_default"
+    android:orientation="vertical"
+    android:padding="8dp"
+    app:enable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="The Setting Activity"
+        android:textColor="@color/text_default"
+        app:enable="true" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:button="@drawable/checkbox_selector"
+        android:text="测试复选框"
+        android:textColor="@color/text_default"
+        app:enable="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:onClick="startDay"
+        android:text="日间模式"
+        android:textColor="@color/colorAccent"
+        app:enable="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:onClick="startNightPlugin"
+        android:text="插件包夜间模式"
+        android:textColor="@color/colorAccent"
+        app:enable="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:onClick="startNight"
+        android:text="应用内夜间模式"
+        android:textColor="@color/colorAccent"
+        app:enable="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:onClick="startNext"
+        android:text="Next"
+        android:textColor="@color/colorAccent"
+        app:enable="true" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_bg"
+        android:gravity="center"
+        android:onClick="startPrev"
+        android:text="Prev"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/colorAccent"
+        app:enable="true" />
+
+</LinearLayout>
